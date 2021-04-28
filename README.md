@@ -1,11 +1,5 @@
 # cadDepart-7focus
 
-Página para cadastro de produtos: https://yuriborborema.github.io/.
+Result of 1 and a half week of Angular study: https://yuriborborema.github.io/.
 
-Só funcionando o cadastramento de departamentos hoje 23/04/2021:
-  - Salvar;
-  - Cancelar salvar;
-  - Editar e
-  - Deletar.
-
-Desenvolvida com Angular, hospedada front no Github Pages e back no Heroku.
+Developed with Angular, hosted at Github Pages and Heroku.

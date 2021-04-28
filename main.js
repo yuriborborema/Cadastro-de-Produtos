@@ -1019,11 +1019,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'logp', component: _logp_logp_component__WEBPACK_IMPORTED_MODULE_2__["LogpComponent"] },
-    { path: 'cad-prod-dep', component: _cad_prod_dep_cad_prod_dep_component__WEBPACK_IMPORTED_MODULE_3__["CadProdDepComponent"] },
-    { path: '', pathMatch: 'full', redirectTo: 'logp' },
-    { path: 'cadProd-setFocus', pathMatch: 'full', redirectTo: 'logp' },
-    { path: '**', component: _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_1__["PagenotfoundComponent"] },
+    { path: 'cadProd-setFocus/logp', component: _logp_logp_component__WEBPACK_IMPORTED_MODULE_2__["LogpComponent"] },
+    { path: 'cadProd-setFocus/cad-prod-dep', component: _cad_prod_dep_cad_prod_dep_component__WEBPACK_IMPORTED_MODULE_3__["CadProdDepComponent"] },
+    { path: 'cadProd-setFocus/', pathMatch: 'full', redirectTo: 'logp' },
+    { path: 'cadProd-setFocus/**', component: _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_1__["PagenotfoundComponent"] },
 ];
 class AppRoutingModule {
 }
